@@ -17,21 +17,21 @@
 
 Lo primero es crear el repositorio en GitHub:
 
-![101 crear repositorio](.\capturas\101 crear repositorio.png)
+![101 crear repositorio](./capturas/101 crear repositorio.png)
 
 Luego, crear el repositorio en local, crear carpetas y añadirlas:
 
-![102 crear repositorio local y crear carpetas](.\capturas\102 crear repositorio local y crear carpetas.png)
+![102 crear repositorio local y crear carpetas](./capturas/102 crear repositorio local y crear carpetas.png)
 
 Vinculamos repositorios:
 
-![103 vincular repositorios](.\capturas\103 vincular repositorios.png)
+![103 vincular repositorios](./capturas/103 vincular repositorios.png)
 
-![104 vista github](.\capturas\104 vista github.png)
+![104 vista github](./capturas/104 vista github.png)
 
 Creamos la rama ejercicio1:
 
-![105 crear rama ejercicio1](.\capturas\105 crear rama ejercicio1.png)
+![105 crear rama ejercicio1](./capturas/105 crear rama ejercicio1.png)
 
 
 
@@ -39,9 +39,9 @@ Creamos la rama ejercicio1:
 
 Instalada la extensión PortNavigator, creamos la red bridge como se nos pide:
 
-![106 crear red brige redej1](.\capturas\106 crear red brige redej1.png)
+![106 crear red brige redej1](./capturas/106 crear red brige redej1.png)
 
-![107 redej1 ya creada](.\capturas\107 redej1 ya creada.png)
+![107 redej1 ya creada](./capturas/107 redej1 ya creada.png)
 
 
 
@@ -49,19 +49,19 @@ Instalada la extensión PortNavigator, creamos la red bridge como se nos pide:
 
 Buscamos la imagen de mariaDB, la descargamos (Pull) y ejecutamos (Run):
 
-![108 buscar la imagen mariadb](.\capturas\108 buscar la imagen mariadb.png)
+![108 buscar la imagen mariadb](./capturas/108 buscar la imagen mariadb.png)
 
 La configuramos tal y como se nos pide. Los nombres de las variables los encontramos en la web https://mariadb.com/kb/en/mariadb-server-docker-official-image-environment-variables/:
 
-![109 ajustes opcionales](.\capturas\109 ajustes opcionales.png)
+![109 ajustes opcionales](./capturas/109 ajustes opcionales.png)
 
 El contenedor corriendo (creado en el puerto 3307 porque en el 3306 tenía mysql): 
 
-![110 contenedor corriendo](.\capturas\110 contenedor corriendo.png)
+![110 contenedor corriendo](./capturas/110 contenedor corriendo.png)
 
 Generamos un script SQL: 
 
-![111 script tabla](.\capturas\111 script tabla.png)
+![111 script tabla](./capturas/111 script tabla.png)
 
 
 
@@ -69,15 +69,15 @@ Generamos un script SQL:
 
 Buscamos la imagen de adminer y creamos un contenedor, de la misma forma que hicimos con la imagen de mariadb previamente:
 
-![112 crear contenedor adminer](.\capturas\112 crear contenedor adminer.png)
+![112 crear contenedor adminer](./capturas/112 crear contenedor adminer.png)
 
 Vamos a desconectar los contenedores de la red bridge que nos sale por defecto y conectarla a la que hemos creado (`redej1`):
 
-![113 conexiones](.\capturas\113 conexiones.png)
+![113 conexiones](./capturas/113 conexiones.png)
 
-![114 conectar a redej1](.\capturas\114 conectar a redej1.png)
+![114 conectar a redej1](./capturas/114 conectar a redej1.png)
 
-![115 los dos conectados a redej1](.\capturas\115 los dos conectados a redej1.png)
+![115 los dos conectados a redej1](./capturas/115 los dos conectados a redej1.png)
 
 
 
@@ -85,36 +85,36 @@ Vamos a desconectar los contenedores de la red bridge que nos sale por defecto y
 
 Conectamos a la BD:
 
-![116 localhost8081](.\capturas\116 localhost8081.png)
+![116 localhost8081](./capturas/116 localhost8081.png)
 
 Antes de llevar a cabo nada:
 
-![117 previo crear nada](.\capturas\117 previo crear nada.png)
+![117 previo crear nada](./capturas/117 previo crear nada.png)
 
 Creamos la tabla en Comando SQL:
 
-![118 crear tabla](.\capturas\118 crear tabla.png)
+![118 crear tabla](./capturas/118 crear tabla.png)
 
 Estos son los datos que muestra la tabla:
 
-![119 datos de la tabla](.\capturas\119 datos de la tabla.png)
+![119 datos de la tabla](./capturas/119 datos de la tabla.png)
 
 
 
 ## 6. Instala la extensión Disk Usage y muestra el espacio ocupado, borra algo
 Nos decidimos por la extensión Disk Usage básicamente por ser la primera opción. La instalamos y mostramos el espacio ocupado:
 
-![120 disk usage](.\capturas\120 disk usage.png)
+![120 disk usage](./capturas/120 disk usage.png)
 
 Borramos un contenedor y mostramos Disk Usage después:
 
-![121 borrar contenedor](.\capturas\121 borrar contenedor.png)
+![121 borrar contenedor](./capturas/121 borrar contenedor.png)
 
-![122 tras borrar contenedor mariadb](.\capturas\122 tras borrar contenedor mariadb.png)
+![122 tras borrar contenedor mariadb](./capturas/122 tras borrar contenedor mariadb.png)
 
 Ahora, tal y como se nos pide, procedemos a borrar todo:
 
-![123 borrar todos los contenedores](.\capturas\123 borrar todos los contenedores.png)
+![123 borrar todos los contenedores](./capturas/123 borrar todos los contenedores.png)
 
-![124 borrar red](.\capturas\124 borrar red.png)
+![124 borrar red](./capturas/124 borrar red.png)
 
