@@ -1,0 +1,20 @@
+body{
+    background-color: gainsboro;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 25px;
+}
+
+h1{
+    color: chocolate;
+}
+
+h2{
+    color: black;
+}
+
+p{
+    color: blueviolet;
+    border: 2px solid coral ;
+    border-radius: 10px;
+}
